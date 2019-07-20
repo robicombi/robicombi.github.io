@@ -1,0 +1,34 @@
+/* VERSION PARA IMPRIMIR */
+
+/* hacer que el header y el 
+subtitulo, queden juntos */
+.miJumboHeader {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+/* hacer desparecer TODAS 
+las imagenes y espacios */
+img, br {
+    display: none !important;
+}
+
+/* para ocultar el
+enalce ir arriba */
+.ocultarAlImprimir {
+    display: none !important;
+}
+
+/* separar la seccion HONORS
+y que ocupe un nueva pagina */
+.saltar {
+    page-break-after: always !important;
+}
+
+/* sacar el espacio que habia
+entre cada recuadro de HONORES */
+.recuadroParaHonores {
+    padding: 0% !important;
+}
+
+/* ---------------------------------------- */

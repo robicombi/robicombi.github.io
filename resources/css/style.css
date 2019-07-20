@@ -1,0 +1,257 @@
+/* ---------------------------------------- */
+
+/* COMPORTAMIENTOS */
+/* de 0px a 1360px de ancho, se aplican estas propiedades */
+@media screen and (max-width: 1360px) {
+    .acomodarRecuadro {
+      font-size: 90% !important;
+    }
+}
+
+/* desde 0px a 1000px de ancho, se aplican estas propiedades */
+@media screen and (max-width: 1000px) {
+    .ocultarAlAchicar {
+      display: none;
+    }
+}
+
+/* desde 0px a 768px de ancho, se aplican estas propiedades */
+@media screen and (max-width: 768px) {
+    .achicarTitulo {
+      font-size: 4.5em !important;
+    }
+}
+
+/* desde 0px a 531px de ancho, se aplican estas propiedades */
+@media screen and (max-width: 531px) {
+    .cajaParaTexto {
+      width: auto !important;
+    }
+}
+
+/* desde 0px a 578px de ancho, se aplican estas propiedades */
+@media screen and (max-width: 578px) {
+    .achicarTitulo {
+      font-size: 3.5em !important;
+    }
+}
+
+/* desde 0px a 460px de ancho, se aplican estas propiedades */
+@media screen and (max-width: 460px) {
+    .achicarTitulo {
+      font-size: 2.5em !important;
+    }
+}
+
+/* desde 0px a 350px de ancho, se aplican estas propiedades */
+@media screen and (max-width: 350px) {
+    .achicarTitulo {
+      font-size: 1.8em !important;
+    }
+
+    .achicarSubTitulo {
+      font-size: 1.5em !important;
+    }
+
+    .achicarPieDeFoto {
+      font-size: 0.9em !important;
+    }
+
+    .achicarLetraFooter {
+      font-size: 12px !important;
+    }
+
+    p {
+      text-align: unset !important;  
+    }
+}
+
+/* ---------------------------------------- */
+
+/* COMPORTAMIENTO ESPECIAL*/
+/* para el subtitulo, de la seccion education and career */
+
+/* desde 0px a 768px de ancho, aplicar estas propiedades */
+@media only screen and (max-width: 768px) {
+    .achicarSubTitulo {
+        font-size: 1.5em !important;
+    }
+}
+
+/* ---------------------------------------- */
+
+/* FUENTES */
+/* se importa la fuente, para los TITULOS */
+@font-face {
+  font-family: "letraTitulo";
+  src: url("../fonts/OpenSansCondBold.ttf") format("truetype");
+}
+/* se crea una clase, para usar la fuente */
+.letraTitulo {
+    font-family: "letraTitulo";
+}
+
+
+/* se importa la fuente, para los PARRAFOS */
+@font-face {
+  font-family: "letraParrafo";
+  src: url("../fonts/OpenSansCondLight.ttf") format("truetype");
+}
+/* se crea una clase, para usar la fuente */
+.letraParrafo {
+    font-family: "letraParrafo";
+    font-size: 22px;
+}
+
+
+/* se importa la fuente, para el FOOTER */
+@font-face {
+  font-family: "letraFooter";
+  src: url("../fonts/OpenSansLight.ttf") format("truetype");
+}
+/* se crea una clase, para usar la fuente */
+.letraFooter {
+    font-family: "letraFooter";
+}
+
+/* ---------------------------------------- */
+
+/* ESTILOS GENERALES */
+.centrarTexto {
+  text-align: center !important;
+}
+
+.configurarJumbo {
+  background-color: rgb(26,31,38);
+  color: rgb(26,31,38);
+}
+
+.jumboBlanco {
+  background-color: whitesmoke;
+}
+
+.miJumboHeader {
+  border-radius: 0px !important;
+  color: whitesmoke;
+}
+
+.miJumboFooter {
+  margin-bottom: 0px;
+  border-radius: 0px !important;
+  font-size: 14px;
+  color: whitesmoke;
+  padding: 20px;
+}
+
+.colorDeFondo {
+  background-color: whitesmoke;
+}
+
+mark {
+  background-color: brown;
+  color: whitesmoke;
+  padding-left: 25px;
+  padding-right: 20px;
+}
+
+.letrasGrises {
+  color: silver;
+}
+
+/* ---------------------------------------- */
+
+/* VARIOS */
+
+/* CAJA PARA TEXTO */
+/* ocupa el ancho de la foto */
+.cajaParaTexto {
+  width: 500px;
+}
+
+.bajarImagen {
+  padding-top: 20px;
+}
+
+.recuadroParaListas {
+  background-color: rgb(26,31,38); 
+  color: silver; 
+  padding-top: 30px;
+  padding-right: 25px;
+}
+
+.sangriaParaListas {
+  padding-left: 25px;
+}
+
+/* TODOS los p, que sean justificarTexto */ 
+p.justificarTexto {
+  text-align: justify;  
+  word-wrap: break-word;
+  text-justify: auto;
+}
+
+.justificarAclaracion {
+  text-align: justify;  
+  word-wrap: break-word;
+  text-justify: auto;
+}
+
+.colorEnlace {
+  color: steelblue;
+}
+
+/* color del enlace, al pasar el mouse */
+.colorHover:hover {
+  color: steelblue;
+}
+
+/* sacar el subrayado, a TODOS los enlaces */
+a.sinSubrayado:link {   
+ text-decoration: none;   
+}
+
+/* HONORES */
+.recuadroParaHonores {
+  padding-top: 25px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: rgb(26,31,38);
+  color: silver;
+}
+
+/* colores, para las fechas de los honores */
+.colorFechaHonores {
+  background-color: brown;
+  padding-left: 5px; 
+  padding-right: 5px;
+  color: whitesmoke;
+}
+
+/* ---------------------------------------- */
+
+/* seteo por defecto, para el comportamiento */ 
+.acomodarRecuadro {
+  font-size: 100%;
+}
+
+/* ---------------------------------------- */
+
+/* enlaces */
+.sombraAzul {
+  text-shadow: 0px 0px 20px steelblue;
+}
+
+/* pie de foto y aclaraciones */
+.sombraGris {
+  text-shadow: 0px 0px 20px #777;
+}
+
+.sombraNegra {
+  text-shadow: 0 0 3px #000000;
+}
+
+.sombraBlanca {
+  text-shadow: 0 0 3px #ffffff;
+}
+
