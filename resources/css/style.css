@@ -184,16 +184,24 @@ mark {
 }
 
 /* TODOS los p, que sean justificarTexto */ 
+/*
+  text-align: justify;  
+  word-wrap: break-word;
+  text-justify: auto;
+*/
 p.justificarTexto {
   text-align: justify;  
-  word-wrap: break-word;
-  text-justify: auto;
+  text-justify: inter-character;
 }
 
-.justificarAclaracion {
+/*
   text-align: justify;  
   word-wrap: break-word;
   text-justify: auto;
+*/
+.justificarAclaracion {
+  text-align: justify;
+  text-justify: inter-character;
 }
 
 .colorEnlace {
