@@ -1,13 +1,6 @@
 /* ---------------------------------------- */
 
 /* COMPORTAMIENTOS */
-/* de 0px a 1360px de ancho, se aplican estas propiedades */
-@media screen and (max-width: 1360px) {
-    .acomodarRecuadro {
-      font-size: 90% !important;
-    }
-}
-
 /* desde 0px a 1000px de ancho, se aplican estas propiedades */
 @media screen and (max-width: 1000px) {
     .ocultarAlAchicar {
@@ -46,7 +39,7 @@
 /* desde 0px a 350px de ancho, se aplican estas propiedades */
 @media screen and (max-width: 350px) {
     .achicarTitulo {
-      font-size: 1.8em !important;
+      font-size: 300% !important;
     }
 
     .achicarSubTitulo {
@@ -74,7 +67,7 @@
 /* desde 0px a 768px de ancho, aplicar estas propiedades */
 @media only screen and (max-width: 768px) {
     .achicarSubTitulo {
-        font-size: 1.5em !important;
+        font-size: 28px !important;
     }
 }
 
@@ -100,7 +93,7 @@
 /* se crea una clase, para usar la fuente */
 .letraParrafo {
     font-family: "letraParrafo";
-    font-size: 28px;
+    font-size: 26px;
 }
 
 
@@ -250,4 +243,3 @@ a.sinSubrayado:link {
 .sombraBlanca {
   text-shadow: 0 0 3px #ffffff;
 }
-
